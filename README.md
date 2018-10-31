@@ -54,7 +54,7 @@ router.builder(.GET, "/build") { req, res, begin in
 }
 ```
 
-## Adding subrouters
+## Adding SubRouters
 
 ```swift
 let router2 = router.newSubRouter(forPathComponent: "router2")
